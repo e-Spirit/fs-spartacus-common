@@ -33,6 +33,7 @@
     "strictTemplates": true,
     "skipTemplateCodegen": true,
     "enableIvy": true,
+    "compilationMode": "partial",
     "enableResourceInlining": true,
     "sideEffects": false,
     "inlineSources": true,
