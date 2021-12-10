@@ -8,9 +8,13 @@ import { Config } from "@spartacus/core";
   useExisting: Config,
 })
 export abstract class FsSpartacusBridgeConfig {
-  caas?: CaaS;
-  firstSpiritManagedPages?: FirstSpiritManagedPage[];
-  fallbackLanguage?: string;
+  bridge?: {
+    [baseSite: string]: {
+      caas?: CaaS;
+      firstSpiritManagedPages?: FirstSpiritManagedPage[];
+      fallbackLanguage?: string;
+    };
+  }
 }
 
 // Typescript Interface Augmentation
