@@ -1,6 +1,6 @@
 {
   "name": "fs-spartacus-common",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -11,7 +11,8 @@
     "uglify-dist": "node ./build-scripts/uglify.js ./dist/fs-spartacus-common --source-map",
     "lint": "ng lint",
     "lint:staged": "lint-staged -r -v",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "compodoc": "npx compodoc -p src/tsconfig.doc.json --disableGraph --disableCoverage"
   },
   "private": true,
   "dependencies": {
@@ -88,7 +89,8 @@
     "tsutils": "3.21.0",
     "typescript": "4.3.5",
     "@babel/core": "^7.16.0",
-    "postcss": "^8.3.11"
+    "postcss": "^8.3.11",
+    "@compodoc/compodoc": "^1.1.16"
   },
   "husky": {
     "hooks": {
