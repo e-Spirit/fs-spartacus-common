@@ -1,7 +1,7 @@
 import { CaaS } from './caas';
 import { FirstSpiritManagedPage } from './first-spirit-managed-page';
-import { Injectable } from "@angular/core";
-import { Config } from "@spartacus/core";
+import { Injectable } from '@angular/core';
+import { Config } from '@spartacus/core';
 
 /**
  * This data class extends the configuration used by SAP Commerce.
@@ -18,7 +18,7 @@ export abstract class FsSpartacusBridgeConfig {
       firstSpiritManagedPages?: FirstSpiritManagedPage[];
       fallbackLanguage?: string;
     };
-  }
+  };
 }
 
 // Typescript Interface Augmentation
