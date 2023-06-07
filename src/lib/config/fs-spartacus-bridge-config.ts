@@ -28,6 +28,6 @@ declare module '@spartacus/core' {
    *
    * @interface Config
    */
-  // tslint:disable-next-line
+  // eslint-disable-next-line
   interface Config extends FsSpartacusBridgeConfig {}
 }

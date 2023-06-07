@@ -9,7 +9,6 @@ import { FsComponentConverter } from './converter/fs-component-converter';
   declarations: [],
   imports: [],
   providers: [{ provide: FsComponentConverter, useValue: {}, multi: true }],
-  entryComponents: [],
   exports: [],
 })
 export class FsSpartacusCommonModule {}

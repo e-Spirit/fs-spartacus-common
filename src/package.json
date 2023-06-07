@@ -1,12 +1,12 @@
 {
   "name": "fs-spartacus-common",
-  "version": "4.0.3",
+  "version": "6.0.1-SNAPSHOT",
   "description": "Utility, configuration and other classes commonly needed in the FirstSpirit integration into the SAP Commerce Spartacus storefront.",
   "peerDependencies": {
-    "@angular/core": "^12.1",
-    "@angular/animations": "^12.1",
-    "@angular/common": "^12.1",
-    "@angular/localize": "^12.1",
-    "@spartacus/core": "^4.0.0"
+    "@angular/core": "15.2.9",
+    "@angular/animations": "15.2.9",
+    "@angular/common": "15.2.9",
+    "@angular/localize": "15.2.9",
+    "@spartacus/core": "^6.0.1"
   }
 }

@@ -5,7 +5,7 @@ It provides common used functionality and shared configuration for our spartacus
 
 ## Author
 
-[e-Spirit AG](https://www.e-spirit.com)
+[Crownpeak Technology GmbH](https://www.crownpeak.com)
 
 ## License
 

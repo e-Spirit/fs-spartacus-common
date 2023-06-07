@@ -18,13 +18,23 @@
     "module": "esnext",
     "moduleResolution": "node",
     "importHelpers": true,
-    "target": "ES2015",
-    "typeRoots": ["./node_modules/@types"],
-    "lib": ["esnext", "dom"],
+    "target": "ES2022",
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "lib": [
+      "esnext",
+      "dom"
+    ],
     "paths": {
-      "@angular/*": ["./node_modules/@angular/*"],
-      "@spartacus/*": ["./node_modules/@spartacus/*"]
-    }
+      "@angular/*": [
+        "./node_modules/@angular/*"
+      ],
+      "@spartacus/*": [
+        "./node_modules/@spartacus/*"
+      ]
+    },
+    "useDefineForClassFields": false
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
@@ -32,7 +42,6 @@
     "generateCodeForLibraries": true,
     "strictTemplates": true,
     "skipTemplateCodegen": true,
-    "enableIvy": true,
     "compilationMode": "partial",
     "enableResourceInlining": true,
     "sideEffects": false,

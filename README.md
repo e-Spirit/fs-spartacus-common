@@ -1,4 +1,4 @@
-﻿# FirstSpirit Connect (Headless) For SAP Commerce Cloud - fs-spartacus-common
+# FirstSpirit Connect (Headless) For SAP Commerce Cloud - fs-spartacus-common
 
 This library is part of the FirstSpirit integration into the [SAP Commerce Cloud Spartacus storefront](https://github.com/SAP/spartacus).
 It provides common used functionality and shared configuration for our spartacus integration libraries fs-spartacus-bridge and fs-spartacus-view-components.
@@ -6,7 +6,7 @@ For more information consult the [offical documentation](https://docs.e-spirit.c
 
 ## Author
 
-[e-Spirit AG](https://www.e-spirit.com)
+[Crownpeak Technology GmbH](https://www.crownpeak.com)
 
 ## License
 
