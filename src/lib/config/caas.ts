@@ -5,7 +5,7 @@
  */
 export class CaaS {
   /**
-   * The URL of the CaaS server, which will be provided by e-Spirit.
+   * The URL of the CaaS server, which will be provided by Crownpeak Technology GmbH.
    */
   baseUrl: string;
   /**
